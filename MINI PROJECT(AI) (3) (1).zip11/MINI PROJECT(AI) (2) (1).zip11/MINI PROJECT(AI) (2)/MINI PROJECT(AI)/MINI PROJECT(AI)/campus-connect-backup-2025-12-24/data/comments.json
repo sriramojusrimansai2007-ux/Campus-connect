@@ -1,0 +1,39 @@
+{
+  "1": [
+    {
+      "id": "ef9b3a0b4f9745fe",
+      "username": "245124737172@mvsrec.edu.in",
+      "text": "over rated",
+      "rating": 5,
+      "createdAt": "2025-12-16T12:46:52.115Z"
+    },
+    {
+      "id": "f9296e8e2d4b3d0f",
+      "username": "245124737143@mvsrec.edu.in",
+      "text": "its tier 1 college",
+      "rating": 4,
+      "createdAt": "2025-12-23T13:24:50.216Z"
+    },
+    {
+      "id": "d6b21e70ec2e4600",
+      "username": "Anonymous Student",
+      "text": "my dream college",
+      "rating": 5,
+      "createdAt": "2025-12-23T19:04:40.017Z"
+    },
+    {
+      "id": "be4a122a67576715",
+      "username": "Anonymous Student",
+      "text": "best college in hyderabad",
+      "rating": 4,
+      "createdAt": "2025-12-23T19:12:02.033Z"
+    },
+    {
+      "id": "4d3aec9da4106426",
+      "username": "245124737143@mvsrec.edu.in",
+      "text": "one of best iits",
+      "rating": 4,
+      "createdAt": "2025-12-23T19:17:59.810Z"
+    }
+  ]
+}

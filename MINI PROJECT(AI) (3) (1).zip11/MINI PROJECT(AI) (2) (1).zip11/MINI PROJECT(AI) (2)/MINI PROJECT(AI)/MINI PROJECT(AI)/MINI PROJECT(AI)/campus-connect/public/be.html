@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>B.E — Campus Connect</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .container { max-width: 900px; margin: 28px auto; padding: 18px; background: #fff; border-radius: 8px; }
+    h1 { margin-top: 0; }
+    .section { margin: 18px 0; }
+    .btn-primary { background:#0078d4;color:#fff;padding:10px 16px;border-radius:6px;border:none;cursor:pointer }
+    .btn-secondary { background:#f3f4f6;color:#111;padding:8px 12px;border-radius:6px;border:1px solid #ddd;cursor:pointer }
+    .spec-list { columns:2; -webkit-columns:2; -moz-columns:2; }
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center}
+    .modal{background:#fff;padding:20px;border-radius:8px;max-width:520px;width:94%;box-shadow:0 6px 30px rgba(0,0,0,0.15)}
+    .form-row{display:flex;gap:8px;margin-bottom:8px}
+    .form-row input,.form-row select,textarea{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+    .muted{color:#666;font-size:0.95rem}
+  </style>
+</head>
+<body style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f4f6f8;">
+  <div class="container">
+    <a href="/" class="muted">← Back to Home</a>
+    <h1>B.E (Bachelor of Engineering)</h1>
+    <p class="muted">A foundational undergraduate engineering degree that prepares students for technical careers across industry and research.</p>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>B.E is a four-year full-time undergraduate program focused on core engineering principles, practical labs, projects and industry exposure. It builds strong fundamentals in mathematics, science and engineering design.</p>
+    </div>
+
+    <div class="section">
+      <h2>Duration</h2>
+      <p>Typically 4 years (8 semesters). Some universities offer lateral entry (3 years) for diploma holders.</p>
+    </div>
+
+    <div class="section">
+      <h2>Eligibility</h2>
+      <ul>
+        <li>10+2 (or equivalent) with Physics, Chemistry and Mathematics (PCM).</li>
+        <li>Minimum aggregate normally 45%–60% depending on institution and category.</li>
+        <li>Selection via JEE Main, state entrance tests, or college-specific entrance.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Specializations</h2>
+      <div class="spec-list">
+        <ul>
+          <li>Computer Science & Engineering</li>
+          <li>Electronics & Communication</li>
+          <li>Mechanical Engineering</li>
+          <li>Civil Engineering</li>
+          <li>Electrical Engineering</li>
+          <li>Information Technology</li>
+          <li>Chemical Engineering</li>
+          <li>Automotive / Mechatronics</li>
+          <li>Data Science / AI (available at some colleges)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Fees</h2>
+      <p class="muted">Approximate annual tuition (varies widely):</p>
+      <ul>
+        <li>Government colleges: ₹10,000 — ₹1,50,000 per year</li>
+        <li>Private colleges: ₹60,000 — ₹3,00,000 per year</li>
+        <li>Additional costs: hostel, books, labs, and living expenses.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Admission Process</h2>
+      <ol>
+        <li>Register and appear for JEE Main or relevant state entrance.</li>
+        <li>Participate in centralized counseling or apply directly to colleges.</li>
+        <li>Complete document verification and fee payment to confirm seat.</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Career Scope</h2>
+      <p>B.E graduates can work in software, core engineering, manufacturing, construction, consultancy, R&D, or pursue higher studies (M.Tech, MBA).</p>
+    </div>
+
+    <div class="section">
+      <h2>Placement Details</h2>
+      <p>Placements range by branch and college reputation. Top roles include Software Engineer, Design Engineer, Site Engineer, Systems Analyst, and R&D positions.</p>
+      <p class="muted">Top recruiters: TCS, Infosys, L&T, Bosch, Siemens, Tata, Mahindra, Microsoft, Google (for top colleges).</p>
+    </div>
+
+    <div class="section">
+      <h2>Apply Now</h2>
+      <p class="muted">Express interest and we will contact you with admission steps.</p>
+      <button class="btn-primary" id="open-apply">Apply for B.E — Admissions Open</button>
+      <button class="btn-secondary" onclick="location.href='/signup.html'">Go to Admission Portal</button>
+      <div style="margin-top:12px;font-size:0.95rem;" class="muted">Contact: <strong>admissions@campusconnect.example</strong></div>
+    </div>
+  </div>
+
+  <div id="apply-modal" class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal" role="document">
+      <h3>Express Interest — B.E</h3>
+      <p class="muted">Fill a quick form and we will reach out with admission details.</p>
+      <div style="margin-top:8px">
+        <div class="form-row">
+          <input id="app-name" placeholder="Full name" />
+        </div>
+        <div class="form-row">
+          <input id="app-email" type="email" placeholder="Email address" />
+          <input id="app-phone" placeholder="Phone (optional)" />
+        </div>
+        <div class="form-row">
+          <select id="app-spec">
+            <option>Computer Science & Engineering</option>
+            <option>Electronics & Communication</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+            <option>Electrical</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div style="margin-bottom:10px">
+          <textarea id="app-msg" placeholder="Tell us about your background or questions" rows="3" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px"></textarea>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <button class="btn-secondary" id="apply-cancel">Cancel</button>
+          <button class="btn-primary" id="apply-send">Send Interest</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/back.js"></script>
+  <script>
+    const openBtn = document.getElementById('open-apply');
+    const modal = document.getElementById('apply-modal');
+    const cancel = document.getElementById('apply-cancel');
+    const send = document.getElementById('apply-send');
+    openBtn.addEventListener('click', ()=>{ modal.style.display='flex'; modal.setAttribute('aria-hidden','false'); });
+    cancel.addEventListener('click', ()=>{ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); });
+    send.addEventListener('click', ()=>{
+      const name = document.getElementById('app-name').value.trim();
+      const email = document.getElementById('app-email').value.trim();
+      if(!name || !email){ alert('Please provide at least your name and email.'); return; }
+      const subject = encodeURIComponent('B.E Application Interest — ' + name);
+      const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\nReferer: '+location.href);
+      window.location.href = 'mailto:admissions@campusconnect.example?subject='+subject+'&body='+body;
+      modal.style.display='none';
+    });
+    modal.addEventListener('click', (e)=>{ if(e.target === modal){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); } });
+  </script>
+</body>
+</html>

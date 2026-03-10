@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Forgot Password — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>Campus Connect</h1>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/signup">Sign Up</a>
+      </nav>
+    </div>
+    <p class="subtitle">Enter your username or email to receive a password reset link.</p>
+  </header>
+
+  <main>
+    <div style="max-width:520px;margin:30px auto;">
+      <div class="card">
+        <label>Username or Email</label>
+        <input id="identify" style="width:100%; padding:8px; margin-top:6px" />
+        <div style="margin-top:12px; display:flex; gap:8px">
+          <button id="sendBtn" style="flex:1; padding:10px; background:#0b5ed7; color:#fff; border:none; border-radius:6px">Send reset link</button>
+          <a href="/login" style="align-self:center;">Back to login</a>
+        </div>
+        <p id="msg" style="color:var(--muted); margin-top:8px"></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="/forgot.js"></script>
+</body>
+</html>

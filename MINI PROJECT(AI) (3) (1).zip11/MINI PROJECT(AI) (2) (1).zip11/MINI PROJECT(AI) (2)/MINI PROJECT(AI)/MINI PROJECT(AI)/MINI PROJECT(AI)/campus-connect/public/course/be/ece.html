@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ECE — B.E — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>.container{max-width:900px;margin:28px auto;padding:18px;background:#fff;border-radius:8px}.muted{color:#666}</style>
+</head>
+<body style="font-family:system-ui,Arial;background:#f4f6f8">
+  <main class="page-full">
+    <div class="page-inner">
+      <a id="back-link" href="#" class="muted">← Back to B.E</a>
+      <div id="spec-content">
+        <h1>Electronics & Communication Engineering (ECE) — B.E</h1>
+        <p class="muted">ECE focuses on electronic circuits, communication systems, signal processing and embedded systems.</p>
+
+        <h2>Placement Statistics</h2>
+        <p id="placement-rate">Placement rate (approx): 70%–92% (varies by institute)</p>
+
+        <h2>Average & Highest Package</h2>
+        <p id="packages"><strong>Average:</strong> ₹4 LPA — ₹8 LPA (typical)<br><strong>Highest:</strong> ₹10 LPA — ₹25 LPA (top colleges)</p>
+
+        <h2>Top Recruiting Companies</h2>
+        <ul id="top-companies">
+          <li>Qualcomm</li>
+          <li>Intel</li>
+          <div class="container">
+            <a href="/course/be" class="muted">← Back to B.E</a>
+            <h1>Electronics & Communication Engineering — B.E</h1>
+            <p class="muted">ECE focuses on embedded systems, VLSI, communication systems and signal processing.</p>
+        <ul id="career-roles">
+            <h2>Placement Statistics</h2>
+            <p>Placement rate (approx): 75%–92% depending on institute and branch focus</p>
+          <li>Communication Systems Engineer</li>
+            <h2>Average & Highest Package</h2>
+            <p><strong>Average:</strong> ₹4 LPA — ₹9 LPA (typical)<br><strong>Highest:</strong> ₹12 LPA — ₹25 LPA (top recruiters)</p>
+        </ul>
+            <h2>Top Recruiting Companies</h2>
+            <ul>
+              <li>Qualcomm</li>
+              <li>Texas Instruments</li>
+              <li>Samsung</li>
+              <li>Analog Devices</li>
+              <li>Intel</li>
+            </ul>
+  <script>
+            <h2>Career Opportunities</h2>
+            <ul>
+              <li>Embedded Systems Engineer</li>
+              <li>VLSI Engineer</li>
+              <li>Signal Processing Engineer</li>
+              <li>Communication Systems Engineer</li>
+              <li>Research / Higher Studies</li>
+            </ul>
+          </div>
+          <div id="not-available" style="display:none;padding:24px;background:var(--card);border:1px solid var(--border);border-radius:8px;margin-top:12px">
+            <h3>This course is not available for the selected college.</h3>
+            <p class="muted">Please choose another course or check other colleges.</p>
+          </div>
+          </main>
+        if (!hasSpec && c.specializations) { hasSpec = c.specializations.map(s=>s.toLowerCase()).includes('ece'); }
+        if (!hasCourse || !hasSpec) { document.getElementById('spec-content').style.display = 'none'; document.getElementById('not-available').style.display = 'block'; return; }
+        if (c.placements && c.placements.bySpecialization && c.placements.bySpecialization.ece) {
+          const p = c.placements.bySpecialization.ece;
+          document.getElementById('placement-rate').textContent = 'Placement rate (approx): ' + (p.placementPercent || 'N/A') + '%';
+          document.getElementById('packages').innerHTML = `<strong>Average:</strong> ₹${p.avgPackage||'N/A'} LPA<br><strong>Highest:</strong> ₹${p.highestPackage||'N/A'} LPA`;
+          document.getElementById('top-companies').innerHTML = (p.topRecruiters || []).slice(0,8).map(x=>`<li>${x}</li>`).join('') || document.getElementById('top-companies').innerHTML;
+        }
+      }catch(e){ document.getElementById('spec-content').style.display = 'none'; document.getElementById('not-available').style.display = 'block'; }
+    })();
+  </script>
+</body>
+</html>

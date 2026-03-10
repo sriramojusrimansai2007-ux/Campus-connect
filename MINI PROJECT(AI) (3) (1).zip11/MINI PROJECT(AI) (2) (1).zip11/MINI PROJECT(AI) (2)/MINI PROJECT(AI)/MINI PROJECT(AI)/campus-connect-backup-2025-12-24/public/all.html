@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>All Colleges — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+ </head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header>
+    <div class="header-inner">
+      <h1>🎓 Campus Connect</h1>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/all">All Colleges</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div style="max-width:1100px;margin:18px auto;padding:16px;">
+      <h2>All Colleges</h2>
+      <div class="filters" style="margin:12px 0;">
+        <label>City: <select id="filter-city"><option value="">Any</option></select></label>
+        <label>Fees: <select id="filter-fees"><option value="">Any</option><option value="lt1">≤ ₹1L</option><option value="1-2">₹1L–2L</option><option value="gt2">> ₹2L</option></select></label>
+        <label>Min Avg Package: <input id="filter-minpkg" type="number" placeholder="e.g., 5 (LPA)" min="0" style="width:120px;"/></label>
+        <button id="apply-filters" class="btn-secondary">Apply</button>
+      </div>
+
+      <div id="all-list" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-top:12px;"></div>
+
+      <div class="pager" id="pager"></div>
+    </div>
+  </main>
+
+  <footer>
+    <small>© 2025 Campus Connect</small>
+  </footer>
+
+  <script src="/all.js"></script>
+</body>
+</html>

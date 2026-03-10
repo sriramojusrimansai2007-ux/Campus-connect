@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Campus Connect — Telangana Top 20 Engineering Colleges</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <h1>Campus Connect</h1>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Login</a>
+      </nav>
+    </div>
+    <p class="subtitle">Top 20 Engineering Colleges in Telangana</p>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-accent">
+    <h2>Find your best engineering college in Telangana</h2>
+    <p>
+      Search colleges by name, city or type.
+      Use Sign Up / Login to save preferences (demo).
+    </p>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- SEARCH CONTROLS -->
+    <div class="controls">
+      <input
+        id="search"
+        type="text"
+        placeholder="Search by name, city or type (min 2 chars)..."
+        autocomplete="off"
+      />
+      <button id="refresh" type="button">Clear</button>
+    </div>
+
+    <!-- PROMPT -->
+    <div id="prompt" class="prompt">
+      <h2>Search colleges</h2>
+      <p>
+        Type at least 2 characters in the search box
+        to see matching colleges.
+      </p>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="list" class="list" aria-live="polite"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <small>
+      Data curated for Telangana Top 20.
+      Inspired by Shiksha & CollegeDunia layouts.
+    </small>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

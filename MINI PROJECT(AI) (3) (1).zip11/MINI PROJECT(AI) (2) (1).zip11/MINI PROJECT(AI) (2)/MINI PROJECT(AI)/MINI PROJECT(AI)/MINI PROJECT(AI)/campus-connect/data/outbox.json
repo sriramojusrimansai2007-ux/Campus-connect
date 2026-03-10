@@ -1,0 +1,65 @@
+[
+  {
+    "to": "245124737172@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=3afd7e476f92415d233645c82b816e97068d3969",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=3afd7e476f92415d233645c82b816e97068d3969\">http://localhost:3000/reset.html?token=3afd7e476f92415d233645c82b816e97068d3969</a></p>",
+    "date": "2025-12-16T12:47:39.523Z"
+  },
+  {
+    "to": "245124737172@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=f36f1792c071da88e2f1505de6e4cbe7aedacfaa",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=f36f1792c071da88e2f1505de6e4cbe7aedacfaa\">http://localhost:3000/reset.html?token=f36f1792c071da88e2f1505de6e4cbe7aedacfaa</a></p>",
+    "date": "2025-12-16T12:48:09.645Z"
+  },
+  {
+    "to": "245124737172@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=da5dfc930bfa11e5d350c5fcad40a5be48b797b1",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=da5dfc930bfa11e5d350c5fcad40a5be48b797b1\">http://localhost:3000/reset.html?token=da5dfc930bfa11e5d350c5fcad40a5be48b797b1</a></p>",
+    "date": "2025-12-16T12:48:10.778Z"
+  },
+  {
+    "to": "245124737143@mvsrec.edu.in",
+    "subject": "Welcome to Campus Connect",
+    "text": "Hello 245124737143@mvsrec.edu.in,\n\nYour account has been created.",
+    "html": "<p>Hello 245124737143@mvsrec.edu.in,</p><p>Your account has been created on Campus Connect.</p>",
+    "date": "2025-12-16T12:49:31.661Z"
+  },
+  {
+    "to": "245124737172@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=fee0cd515cb418512244332e386d2285c1d0c220",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=fee0cd515cb418512244332e386d2285c1d0c220\">http://localhost:3000/reset.html?token=fee0cd515cb418512244332e386d2285c1d0c220</a></p>",
+    "date": "2025-12-16T12:59:45.484Z"
+  },
+  {
+    "to": "245124737172@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=0011412d2bec6f7e6327a93fd4627aaa8526d6cb",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=0011412d2bec6f7e6327a93fd4627aaa8526d6cb\">http://localhost:3000/reset.html?token=0011412d2bec6f7e6327a93fd4627aaa8526d6cb</a></p>",
+    "date": "2025-12-16T13:09:06.143Z"
+  },
+  {
+    "to": "245124737172@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=2de3a3525497f525990c49357e4b94b2b1b79426",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=2de3a3525497f525990c49357e4b94b2b1b79426\">http://localhost:3000/reset.html?token=2de3a3525497f525990c49357e4b94b2b1b79426</a></p>",
+    "date": "2025-12-16T13:09:30.562Z"
+  },
+  {
+    "to": "dfgh@gmail.cm",
+    "subject": "Welcome to Campus Connect",
+    "text": "Hello fffff,\n\nYour account has been created.",
+    "html": "<p>Hello fffff,</p><p>Your account has been created on Campus Connect.</p>",
+    "date": "2025-12-19T17:23:10.186Z"
+  },
+  {
+    "to": "245124737143@mvsrec.edu.in",
+    "subject": "Password reset for Campus Connect",
+    "text": "Use this link to reset your password: http://localhost:3000/reset.html?token=b99f124d89c89d6800835e8c25501ad437add163",
+    "html": "<p>Use the link to reset your password: <a href=\"http://localhost:3000/reset.html?token=b99f124d89c89d6800835e8c25501ad437add163\">http://localhost:3000/reset.html?token=b99f124d89c89d6800835e8c25501ad437add163</a></p>",
+    "date": "2025-12-23T13:22:38.126Z"
+  }
+]

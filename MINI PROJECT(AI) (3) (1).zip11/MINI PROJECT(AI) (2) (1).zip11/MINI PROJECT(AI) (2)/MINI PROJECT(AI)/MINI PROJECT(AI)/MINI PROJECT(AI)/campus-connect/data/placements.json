@@ -1,0 +1,171 @@
+{
+  "1": {
+    "avgPackage": "22 LPA",
+    "highestPackage": "85 LPA",
+    "topRecruiters": ["Google", "Microsoft", "Amazon", "Qualcomm", "Bloomberg"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "35 LPA", "highestPackage": "120 LPA", "topRecruiters": ["Google", "Facebook", "Amazon"] },
+      "ece": { "avgPackage": "18 LPA", "highestPackage": "48 LPA", "topRecruiters": ["Intel", "Qualcomm", "Analog Devices"] },
+      "mech": { "avgPackage": "8 LPA", "highestPackage": "26 LPA", "topRecruiters": ["Bosch", "Tata Motors"] }
+    }
+  },
+  "2": {
+    "avgPackage": "10 LPA",
+    "highestPackage": "32 LPA",
+    "topRecruiters": ["TCS", "Infosys", "Amazon", "Microsoft"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "16 LPA", "highestPackage": "48 LPA", "topRecruiters": ["Amazon", "Microsoft"] },
+      "ece": { "avgPackage": "9 LPA", "highestPackage": "26 LPA", "topRecruiters": ["Intel", "Samsung"] }
+    }
+  },
+  "3": {
+    "avgPackage": "18 LPA",
+    "highestPackage": "70 LPA",
+    "topRecruiters": ["Google", "Adobe", "Amazon"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "30 LPA", "highestPackage": "110 LPA", "topRecruiters": ["Google", "Microsoft"] }
+    }
+  },
+  "4": {
+    "avgPackage": "12 LPA",
+    "highestPackage": "45 LPA",
+    "topRecruiters": ["Goldman Sachs", "Accenture", "Amazon"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "18 LPA", "highestPackage": "52 LPA", "topRecruiters": ["Goldman Sachs", "Amazon"] },
+      "ece": { "avgPackage": "10 LPA", "highestPackage": "28 LPA", "topRecruiters": ["Qualcomm", "Analog Devices"] }
+    }
+  },
+  "5": {
+    "avgPackage": "6 LPA",
+    "highestPackage": "18 LPA",
+    "topRecruiters": ["TCS", "Wipro", "Infosys"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "8 LPA", "highestPackage": "24 LPA", "topRecruiters": ["TCS", "Wipro"] },
+      "civil": { "avgPackage": "5 LPA", "highestPackage": "12 LPA", "topRecruiters": ["L&T", "Tata Projects"] }
+    }
+  },
+  "6": {
+    "avgPackage": "5.5 LPA",
+    "highestPackage": "16 LPA",
+    "topRecruiters": ["TCS", "Tech Mahindra", "Capgemini"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "7.5 LPA", "highestPackage": "22 LPA", "topRecruiters": ["TCS", "Capgemini"] }
+    }
+  },
+  "7": {
+    "avgPackage": "4.5 LPA",
+    "highestPackage": "12 LPA",
+    "topRecruiters": ["Infosys", "TCS", "Wipro"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "6 LPA", "highestPackage": "15 LPA", "topRecruiters": ["Infosys"] }
+    }
+  },
+  "8": {
+    "avgPackage": "6.5 LPA",
+    "highestPackage": "18 LPA",
+    "topRecruiters": ["Amazon", "Accenture", "Cognizant"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "9.5 LPA", "highestPackage": "35 LPA", "topRecruiters": ["Google","Microsoft","Amazon"] },
+      "ece": { "avgPackage": "5.5 LPA", "highestPackage": "12 LPA", "topRecruiters": ["Intel","Qualcomm"] },
+      "civil": { "avgPackage": "4.2 LPA", "highestPackage": "10 LPA", "topRecruiters": ["L&T","Tata Projects"] },
+      "mechanical": { "avgPackage": "4.0 LPA", "highestPackage": "11 LPA", "topRecruiters": ["Bosch","Tata Motors"] }
+    }
+  },
+  "9": {
+    "avgPackage": "6 LPA",
+    "highestPackage": "17 LPA",
+    "topRecruiters": ["IBM", "TCS", "Wipro"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "8 LPA", "highestPackage": "22 LPA", "topRecruiters": ["IBM", "TCS"] }
+    }
+  },
+  "10": {
+    "avgPackage": "4.2 LPA",
+    "highestPackage": "12 LPA",
+    "topRecruiters": ["TCS", "Wipro", "Infosys"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "6.5 LPA", "highestPackage": "18 LPA", "topRecruiters": ["TCS","Wipro"] },
+      "ece": { "avgPackage": "4.8 LPA", "highestPackage": "10 LPA", "topRecruiters": ["Samsung","Analog Devices"] }
+    }
+  },
+  "11": {
+    "avgPackage": "5.5 LPA",
+    "highestPackage": "15 LPA",
+    "topRecruiters": ["Amazon", "Capgemini", "TCS"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "8 LPA", "highestPackage": "20 LPA", "topRecruiters": ["Amazon", "Capgemini"] }
+    }
+  },
+  "12": {
+    "avgPackage": "5.8 LPA",
+    "highestPackage": "16 LPA",
+    "topRecruiters": ["Infosys", "Accenture", "TCS"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "7.5 LPA", "highestPackage": "19 LPA", "topRecruiters": ["Infosys", "Accenture"] }
+    }
+  },
+  "13": {
+    "avgPackage": "4.8 LPA",
+    "highestPackage": "12 LPA",
+    "topRecruiters": ["Wipro", "Infosys", "TCS"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "6 LPA", "highestPackage": "14 LPA", "topRecruiters": ["Wipro"] }
+    }
+  },
+  "14": {
+    "avgPackage": "4.6 LPA",
+    "highestPackage": "11 LPA",
+    "topRecruiters": ["Infosys", "Wipro", "Tech Mahindra"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "6 LPA", "highestPackage": "13 LPA", "topRecruiters": ["Infosys"] }
+    }
+  },
+  "15": {
+    "avgPackage": "4.5 LPA",
+    "highestPackage": "13 LPA",
+    "topRecruiters": ["Cognizant", "TCS", "Wipro"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "6.5 LPA", "highestPackage": "15 LPA", "topRecruiters": ["Cognizant"] }
+    }
+  },
+  "16": {
+    "avgPackage": "4.2 LPA",
+    "highestPackage": "10 LPA",
+    "topRecruiters": ["Infosys", "TCS", "Accenture"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "5.5 LPA", "highestPackage": "11 LPA", "topRecruiters": ["Infosys"] }
+    }
+  },
+  "17": {
+    "avgPackage": "4.8 LPA",
+    "highestPackage": "14 LPA",
+    "topRecruiters": ["HAL", "DRDO", "Tata Advanced Systems"],
+    "bySpecialization": {
+      "aero": { "avgPackage": "5 LPA", "highestPackage": "12 LPA", "topRecruiters": ["HAL", "DRDO"] }
+    }
+  },
+  "18": {
+    "avgPackage": "4.4 LPA",
+    "highestPackage": "12 LPA",
+    "topRecruiters": ["Cognizant", "TCS", "Amazon"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "6 LPA", "highestPackage": "15 LPA", "topRecruiters": ["Cognizant", "Amazon"] }
+    }
+  },
+  "19": {
+    "avgPackage": "3.8 LPA",
+    "highestPackage": "10 LPA",
+    "topRecruiters": ["Wipro", "Infosys", "TCS"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "5 LPA", "highestPackage": "12 LPA", "topRecruiters": ["Wipro"] }
+    }
+  },
+  "20": {
+    "avgPackage": "5.0 LPA",
+    "highestPackage": "14 LPA",
+    "topRecruiters": ["TCS", "Infosys", "Wipro"],
+    "bySpecialization": {
+      "cse": { "avgPackage": "7 LPA", "highestPackage": "18 LPA", "topRecruiters": ["TCS", "Infosys"] }
+    }
+  }
+}

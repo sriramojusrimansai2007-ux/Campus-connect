@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>M.Tech — Campus Connect</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .container { max-width: 900px; margin: 28px auto; padding: 18px; background: #fff; border-radius: 8px; }
+    h1 { margin-top: 0; }
+    .section { margin: 18px 0; }
+    .btn-primary { background:#0078d4;color:#fff;padding:10px 16px;border-radius:6px;border:none;cursor:pointer }
+    .btn-secondary { background:#f3f4f6;color:#111;padding:8px 12px;border-radius:6px;border:1px solid #ddd;cursor:pointer }
+    .spec-list { columns:2; -webkit-columns:2; -moz-columns:2; }
+    /* modal */
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center}
+    .modal{background:#fff;padding:20px;border-radius:8px;max-width:520px;width:94%;box-shadow:0 6px 30px rgba(0,0,0,0.15)}
+    .form-row{display:flex;gap:8px;margin-bottom:8px}
+    .form-row input,.form-row select,textarea{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+    .muted{color:#666;font-size:0.95rem}
+  </style>
+</head>
+<body style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f4f6f8;">
+  <div class="container">
+    <a href="/" class="muted">← Back to Home</a>
+    <h1>M.Tech (Master of Technology)</h1>
+    <p class="muted">Advanced postgraduate engineering degree focused on specialized technical knowledge and research. Ideal for students aiming for research, higher technical roles, or academic careers.</p>
+
+    <div class="section">
+      <h2>1. Course Overview</h2>
+      <p>The M.Tech program is a two-year full-time postgraduate degree designed to provide in-depth knowledge and practical skills in a selected branch of engineering. The curriculum blends advanced theory, laboratory work, project-based learning and, often, a dissertation or thesis. Students gain expertise to work in R&D, design, development, or pursue doctoral studies.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Duration</h2>
+      <p>Typically 2 years (4 semesters) for full-time students. Part-time or evening M.Tech options may be available in some institutions; duration varies.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Eligibility Criteria</h2>
+      <ul>
+        <li>Bachelor’s degree in Engineering/Technology (B.E/B.Tech) or a relevant M.Sc with a minimum aggregate (commonly 55%–60%, may vary by college).</li>
+        <li>Valid GATE score is preferred or required for admission and scholarships in many institutes.</li>
+        <li>Some colleges conduct their own entrance exams or interviews for selection.</li>
+        <li>Reservations and relaxation as per government/regulatory norms.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>4. Available Specializations</h2>
+      <div class="spec-list">
+        <ul>
+          <li>Computer Science & Engineering</li>
+          <li>Data Science & AI / Machine Learning</li>
+          <li>Electronics & Communication Engineering</li>
+          <li>VLSI & Embedded Systems</li>
+          <li>Power Systems & Electrical Engineering</li>
+          <li>Mechanical Engineering / Thermal & Design</li>
+          <li>Civil Engineering / Structural Engineering</li>
+          <li>Communication Systems</li>
+          <li>Robotics & Automation</li>
+          <li>Software Engineering</li>
+          <li>Information Security</li>
+          <li>Bioengineering (where available)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>5. Fee Structure (approximate)</h2>
+      <p class="muted">Fees vary by type of institute (government/public, government-aided, private). Approximate annual tuition ranges:</p>
+      <ul>
+        <li>Government / Government-aided: ₹10,000 — ₹1,50,000 per year</li>
+        <li>Private colleges: ₹60,000 — ₹3,00,000 per year</li>
+        <li>Additional costs: caution deposit (one-time), lab/consumables, examination fees, and living expenses.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Admission Process</h2>
+      <ol>
+        <li>Check eligibility and required documents (marksheets, degree, GATE score, ID, photos).</li>
+        <li>Apply online on the college admission portal or through centralized counseling if applicable.</li>
+        <li>Shortlisted candidates may be called for interview/departmental test (depending on specialization).</li>
+        <li>Seat allotment and fee payment to confirm admission.</li>
+        <li>Complete registration and orientation; join classes and project allocation.</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>7. Placement & Career Opportunities</h2>
+      <p id="mtech-placement-intro">Loading placement data for this college...</p>
+      <ul>
+        <li>R&D Engineer / Research Scientist</li>
+        <li>Design Engineer / System Architect</li>
+        <li>Data Scientist / ML Engineer (for AI/Data specializations)</li>
+        <li>Project Lead / Technical Specialist</li>
+        <li>Higher studies (Ph.D.) and academic careers</li>
+        <li>Consulting, product development, and startup roles</li>
+      </ul>
+      <p class="muted">Average starting profiles depend on specialization and institute reputation — ranges can vary widely from core engineering packages to higher-paying roles in software and AI.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Top Recruiting Companies</h2>
+      <p>Common recruiters for M.Tech graduates include technology and core engineering firms:</p>
+      <ul>
+        <li>Tata Consultancy Services (TCS), Infosys, Wipro, Cognizant</li>
+        <li>Microsoft, Google, Amazon, IBM</li>
+        <li>Intel, Qualcomm, Texas Instruments, Samsung</li>
+        <li>Bosch, Siemens, Honeywell, L&T, Mahindra</li>
+        <li>Startups and product companies in AI, Embedded systems, and Robotics</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>9. Apply Now</h2>
+      <p>Ready to apply? Click the button below to send a quick application interest. We will contact you with next steps.</p>
+
+      <button class="btn-primary" id="open-apply">Apply for M.Tech — Admissions Open</button>
+      <button class="btn-secondary" onclick="location.href='/signup.html'">Go to Admission Portal</button>
+
+      <div style="margin-top:12px;font-size:0.95rem;" class="muted">Alternatively, contact admissions at <strong>admissions@campusconnect.example</strong> or call +91-XXXXXXXXXX.</div>
+    </div>
+  </div>
+
+  <!-- Modal markup -->
+  <div id="apply-modal" class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal" role="document">
+      <h3>Express Interest — M.Tech</h3>
+      <p class="muted">Fill a quick form and we will reach out with admission details.</p>
+      <div style="margin-top:8px">
+        <div class="form-row">
+          <input id="app-name" placeholder="Full name" />
+        </div>
+        <div class="form-row">
+          <input id="app-email" type="email" placeholder="Email address" />
+          <input id="app-phone" placeholder="Phone (optional)" />
+        </div>
+        <div class="form-row">
+          <select id="app-spec">
+            <option value="Computer Science">Computer Science & Engineering</option>
+            <option value="AI-ML">AI & Machine Learning</option>
+            <option value="VLSI">VLSI & Embedded</option>
+            <option value="Power">Power / Electrical</option>
+            <option value="Civil">Civil / Structural</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div style="margin-bottom:10px">
+          <textarea id="app-msg" placeholder="Tell us about your background or questions" rows="3" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px"></textarea>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <button class="btn-secondary" id="apply-cancel">Cancel</button>
+          <button class="btn-primary" id="apply-send">Send Interest</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/back.js"></script>
+  <script>
+    const openBtn = document.getElementById('open-apply');
+    const modal = document.getElementById('apply-modal');
+    const cancel = document.getElementById('apply-cancel');
+    const send = document.getElementById('apply-send');
+
+    openBtn.addEventListener('click', ()=>{ modal.style.display='flex'; modal.setAttribute('aria-hidden','false'); });
+    cancel.addEventListener('click', ()=>{ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); });
+
+    send.addEventListener('click', ()=>{
+      const name = document.getElementById('app-name').value.trim();
+      const email = document.getElementById('app-email').value.trim();
+      const phone = document.getElementById('app-phone').value.trim();
+      const spec = document.getElementById('app-spec').value;
+      const msg = document.getElementById('app-msg').value.trim();
+
+      if(!name || !email){
+        alert('Please provide at least your name and email.');
+        return;
+      }
+
+      // Compose mailto fallback so it works without backend
+      const subject = encodeURIComponent('M.Tech Application Interest — ' + name);
+      const bodyParts = [];
+      bodyParts.push('Name: ' + name);
+      bodyParts.push('Email: ' + email);
+      if(phone) bodyParts.push('Phone: ' + phone);
+      bodyParts.push('Preferred specialization: ' + spec);
+      if(msg) bodyParts.push('\nMessage:\n' + msg);
+      bodyParts.push('\nReferer: ' + location.href);
+      const body = encodeURIComponent(bodyParts.join('\n'));
+
+      // open user's email client
+      window.location.href = 'mailto:admissions@campusconnect.example?subject=' + subject + '&body=' + body;
+      modal.style.display='none';
+    });
+
+    // close modal if backdrop clicked
+    modal.addEventListener('click', (e)=>{ if(e.target === modal){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); } });
+
+    (async function(){
+      const parts = location.pathname.split('/').filter(Boolean);
+      let collegeId = null;
+      if (parts[0] === 'college' && parts.length >= 2) collegeId = parts[1];
+      if (!collegeId) {
+        const qp = new URLSearchParams(location.search).get('college');
+        if (qp) collegeId = qp;
+      }
+      const intro = document.getElementById('mtech-placement-intro');
+      try{
+        if (!collegeId) { intro.textContent = 'College not selected'; return; }
+        const resp = await fetch('/api/colleges/' + encodeURIComponent(collegeId));
+        if (!resp.ok) throw new Error('College not found');
+        const c = await resp.json();
+        const bySpec = (c.placements && c.placements.bySpecialization) || {};
+        const p = bySpec.mtech || c.placements || {};
+        intro.innerHTML = `Typical roles: ${p.commonRoles || 'R&D, Design, Data Science (depends on specialization)'}<br><strong>Average:</strong> ${p.avgPackage || (c.placements && c.placements.avgPackage) || 'N/A'}<br><strong>Top recruiters:</strong> ${(p.topRecruiters || c.placements && c.placements.topRecruiters || []).slice(0,6).join(', ') || 'N/A'}`;
+      }catch(e){ intro.textContent = 'Placement data unavailable'; }
+    })();
+  </script>
+</body>
+</html>

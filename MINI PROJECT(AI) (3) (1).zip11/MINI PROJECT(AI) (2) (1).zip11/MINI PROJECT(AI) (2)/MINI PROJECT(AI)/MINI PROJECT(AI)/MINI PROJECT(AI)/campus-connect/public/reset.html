@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Reset Password — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>Campus Connect</h1>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/signup">Sign Up</a>
+      </nav>
+    </div>
+    <p class="subtitle">Reset your password using the token sent to your email</p>
+  </header>
+
+  <main>
+    <div class="auth-wrapper">
+      <div class="auth-card">
+        <h2>Reset Password</h2>
+        <p>Create a new password for your account</p>
+
+        <div class="form-group">
+          <label for="newpass">New Password</label>
+          <input id="newpass" type="password" required>
+        </div>
+
+        <div class="form-group">
+          <label for="newpass2">Confirm Password</label>
+          <input id="newpass2" type="password" required>
+        </div>
+
+        <button id="resetBtn" class="btn-primary">
+          Reset Password
+        </button>
+
+        <div class="auth-link">
+          <a href="/login">Back to Login</a>
+        </div>
+
+        <p id="msg" class="info-text"></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="/back.js"></script>
+  <script src="/reset.js"></script>
+</body>
+</html>

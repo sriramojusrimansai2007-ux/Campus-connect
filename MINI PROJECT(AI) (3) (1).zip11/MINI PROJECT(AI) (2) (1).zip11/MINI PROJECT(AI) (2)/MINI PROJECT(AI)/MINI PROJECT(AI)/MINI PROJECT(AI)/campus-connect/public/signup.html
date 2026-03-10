@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Create a free Campus Connect account to save colleges and access exclusive features">
+  <title>Sign Up — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>🎓 Campus Connect</h1>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/all">All Colleges</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" style="padding:36px 0 12px;">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Create Your Free Account</h1>
+          <p class="hero-sub">Save favorites, write reviews, and get personalized college recommendations.</p>
+        </div>
+        <div class="hero-cta">
+          <a class="btn-outline" href="/about">Why Join?</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="auth-wrapper">
+      <div class="auth-card">
+        <h2>Create Account</h2>
+        <p>Join Campus Connect to explore colleges and track your journey</p>
+
+        <form id="signup-form" onsubmit="return false;">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input id="username" type="text" placeholder="Choose a username" required>
+            </div>
+            <div class="form-group">
+              <label for="fullname">Full name</label>
+              <input id="fullname" type="text" placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input id="password" type="password" placeholder="Create a strong password" required>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:10px; align-items:center; margin-top:12px;">
+            <button id="signupBtn" type="button" class="btn-primary">Create Account</button>
+            <button id="social-google" class="btn-ghost">Sign up with Google</button>
+          </div>
+
+          <div class="auth-link" style="margin-top:12px;">Already have an account? <a href="/login">Login</a></div>
+          <p id="msg" class="success-text"></p>
+        </form>
+      </div>
+
+      <aside style="max-width:360px; margin-left:20px;">
+        <div class="card">
+          <h4>Why sign up?</h4>
+          <ul>
+            <li>Save favorite colleges</li>
+            <li>Write reviews and help others</li>
+            <li>Get personalized recommendations</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Campus Connect — Your college guide</small>
+  </footer>
+
+  <script src="/back.js"></script>
+  <script src="/signup.js"></script>
+</body>
+</html>

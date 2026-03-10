@@ -1,0 +1,951 @@
+[
+  {
+    "rank": 1,
+    "name": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+    "city": "Kandi (near Hyderabad)",
+    "type": "IIT (Institute)",
+    "established": 2008,
+    "description": "IIT Hyderabad is a top-tier engineering institute known for research and innovation.",
+    "courses": [
+      "B.Tech",
+      "M.Tech",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "22 LPA",
+      "topRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Qualcomm"
+      ]
+    },
+    "facilities": [
+      "Research labs",
+      "Hostel",
+      "Sports complex",
+      "Incubation centre"
+    ],
+    "accreditation": "Institute of National Importance",
+    "nba": null,
+    "naac": null,
+    "intake": 600,
+    "annualFees": "~₹2,00,000",
+    "hostel": "Yes",
+    "website": "https://iith.ac.in",
+    "image": "/images/iit-hyd.jpeg",
+    "phone": "+91-40-2301-6000",
+    "email": "office@iith.ac.in",
+    "address": "Kandi, Sangareddy District, Telangana",
+    "gallery": [
+      "/images/iit-hyd.jpeg",
+      "/images/IIIT-Hyder.png",
+      "/images/iit_hyd.jpeg"
+    ]
+  },
+  {
+    "rank": 2,
+    "name": "National Institute of Technology, Warangal (NIT Warangal)",
+    "city": "Warangal",
+    "type": "NIT (Institute)",
+    "established": 1959,
+    "description": "NIT Warangal is one of the oldest NITs with strong engineering programs.",
+    "courses": [
+      "B.Tech",
+      "M.Tech",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "10 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Infosys",
+        "Amazon",
+        "Microsoft"
+      ]
+    },
+    "facilities": [
+      "Central library",
+      "Hostel",
+      "Medical centre"
+    ],
+    "accreditation": "Institute of National Importance",
+    "nba": null,
+    "naac": null,
+    "intake": 480,
+    "annualFees": "~₹1,00,000",
+    "hostel": "Yes",
+    "website": "https://www.nitw.ac.in",
+    "image": "/images/nit-war.jpg",
+    "phone": "+91-871-2462000",
+    "email": "contact@nitw.ac.in",
+    "address": "Warangal, Telangana",
+    "gallery": [
+      "/images/nit-war.jpg",
+      "/images/nit_war.jpg"
+    ]
+  },
+  {
+    "rank": 3,
+    "name": "International Institute of Information Technology, Hyderabad (IIIT Hyderabad)",
+    "city": "Gachibowli, Hyderabad",
+    "accreditation": "Deemed University",
+    "nba": null,
+    "naac": "NAAC A",
+    "courses": [
+      "B.Tech (CSE)",
+      "M.S.",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "18 LPA",
+      "topRecruiters": [
+        "Google",
+        "CISCO",
+        "Adobe",
+        "Amazon"
+      ]
+    },
+    "facilities": [
+      "Research centres",
+      "Hostel",
+      "Startup incubator"
+    ],
+    "intake": 300,
+    "annualFees": "~₹2,50,000",
+    "hostel": "Yes",
+    "website": "https://www.iiit.ac.in",
+    "image": "/images/iiit-hyder.png",
+    "phone": "+91-40-6653-1000",
+    "email": "admissions@iiit.ac.in",
+    "address": "Gachibowli, Hyderabad, Telangana",
+    "gallery": [
+      "/images/iiit-hyder.png",
+      "/images/iit-hyd.jpeg",
+      "/images/IIIT-Hyder.png"
+    ]
+  },
+  {
+    "rank": 4,
+    "name": "Birla Institute of Technology and Science, Pilani - Hyderabad Campus (BITS Hyderabad)",
+    "city": "Shamirpet (Hyderabad)",
+    "accreditation": "Deemed University",
+    "nba": null,
+    "naac": null,
+    "courses": [
+      "B.E.",
+      "M.E.",
+      "M.Pharm",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "12 LPA",
+      "topRecruiters": [
+        "Goldman Sachs",
+        "Accenture",
+        "Amazon",
+        "Microsoft"
+      ]
+    },
+    "facilities": [
+      "Industry centre",
+      "Hostel",
+      "Labs"
+    ],
+    "intake": 400,
+    "annualFees": "~₹2,00,000",
+    "hostel": "Yes",
+    "website": "https://www.bits-pilani.ac.in/hyderabad/",
+    "image": "/images/birla.webp",
+    "phone": "+91-40-6630-0000",
+    "email": "contact@hyderabad.bits-pilani.ac.in",
+    "address": "Shamirpet, Hyderabad, Telangana",
+    "gallery": [
+      "/images/birla.webp"
+    ]
+  },
+  {
+    "rank": 5,
+    "name": "Osmania University - College of Engineering (OUCE)",
+    "city": "Hyderabad",
+    "type": "State University",
+    "established": 1920,
+    "description": "OU College of Engineering is a historic institution offering diverse engineering programs.",
+    "courses": [
+      "B.E.",
+      "M.E.",
+      "PhD",
+      "B.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "6 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys"
+      ]
+    },
+    "facilities": [
+      "Historic campus",
+      "Library",
+      "Hostels"
+    ],
+    "accreditation": "State University",
+    "nba": null,
+    "naac": null,
+    "subCourses": {
+      "B.E.": [
+        "Civil Engineering",
+        "Computer Science & Engineering",
+        "Electronics & Communication Engineering",
+        "Electrical & Electronics Engineering",
+        "Information Technology",
+        "Mechanical Engineering"
+      ],
+      "M.E.": [
+        "Computer Science & Engineering",
+        "Power Systems",
+        "Thermal Engineering",
+        "VLSI"
+      ]
+    },
+    "intake": 700,
+    "annualFees": "~₹40,000",
+    "hostel": "Yes",
+    "website": "https://www.osmania.ac.in",
+    "image": "/images/ou.jpeg",
+    "phone": "+91-40-2709-5000",
+    "email": "info@osmania.ac.in",
+    "address": "Osmania University Campus, Hyderabad, Telangana",
+    "gallery": [
+      "/images/ou.jpeg"
+    ]
+  },
+  {
+    "rank": 6,
+    "name": "Jawaharlal Nehru Technological University Hyderabad - College of Engineering (JNTUH)",
+    "city": "Hyderabad",
+    "accreditation": "State University",
+    "nba": null,
+    "naac": "NAAC A",
+    "courses": [
+      "B.Tech",
+      "M.Tech",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "5.5 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Tech Mahindra",
+        "Capgemini"
+      ]
+    },
+    "facilities": [
+      "Affiliated colleges",
+      "Research labs"
+    ],
+    "intake": 1200,
+    "annualFees": "~₹30,000",
+    "hostel": "Varies",
+    "website": "https://jntuh.ac.in",
+    "image": "/images/college-6.svg",
+    "phone": "+91-40-2315-2400",
+    "email": "registrar@jntuh.ac.in",
+    "address": "JnT University Campus, Kukatpally, Hyderabad",
+    "gallery": [
+      "/images/JNTU-Hyderabad.jpg"
+    ]
+  },
+  {
+    "rank": 7,
+    "name": "University College of Engineering, Kakatiya University",
+    "city": "Warangal",
+    "accreditation": "State University",
+    "nba": null,
+    "naac": "NAAC A",
+    "courses": [
+      "B.E.",
+      "M.E.",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "4.5 LPA",
+      "topRecruiters": [
+        "Infosys",
+        "TCS",
+        "Wipro"
+      ]
+    },
+    "facilities": [
+      "Regional campus",
+      "Hostel"
+    ],
+    "intake": 300,
+    "annualFees": "~₹25,000",
+    "hostel": "Yes",
+    "website": "https://kakatiya.ac.in",
+    "image": "/images/college-7.svg",
+    "phone": "+91-871-2438239",
+    "email": "uce@kakatiya.ac.in",
+    "address": "Kakatiya University, Warangal, Telangana"
+  },
+  {
+    "rank": 8,
+    "name": "Chaitanya Bharathi Institute of Technology (CBIT)",
+    "city": "Hyderabad",
+    "accreditation": "Autonomous",
+    "nba": null,
+    "naac": "NAAC A",
+    "courses": [
+      "B.E.",
+      "M.E.",
+      "MBA"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "6.5 LPA",
+      "topRecruiters": [
+        "Amazon",
+        "Accenture",
+        "Cognizant"
+      ]
+    },
+    "facilities": [
+      "Industry partnerships",
+      "Hostel",
+      "Labs"
+    ],
+    "intake": 1200,
+    "annualFees": "~₹90,000",
+    "hostel": "Yes",
+    "website": "https://www.cbit.ac.in",
+    "image": "/images/cbit.jpg",
+    "phone": "+91-40-2340-2555",
+    "email": "info@cbit.ac.in",
+    "address": "Hitech City Road, Hyderabad, Telangana",
+    "gallery": [
+      "/images/cbit.jpg"
+    ]
+  },
+  {
+    "rank": 9,
+    "name": "Gokaraju Rangaraju Institute of Engineering and Technology (GRIET)",
+    "city": "Hyderabad",
+    "type": "Private (Autonomous)",
+    "established": 1997,
+    "description": "GRIET offers a range of engineering disciplines with industry-aligned curriculum.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "6 LPA",
+      "topRecruiters": [
+        "IBM",
+        "TCS",
+        "Wipro"
+      ]
+    },
+    "facilities": [
+      "Labs",
+      "Hostel",
+      "Clubs"
+    ],
+    "accreditation": "Autonomous",
+    "nba": null,
+    "naac": "NAAC A",
+    "intake": 900,
+    "annualFees": "~₹80,000",
+    "hostel": "Yes",
+    "website": "https://www.griet.ac.in",
+    "image": "/images/grr.jpeg",
+    "phone": "+91-40-2727-7070",
+    "email": "admissions@griet.ac.in",
+    "address": "Hyderabad, Telangana",
+    "gallery": [
+      "/images/grr.jpeg"
+    ]
+  },
+  {
+    "rank": 11,
+    "name": "VNR Vignana Jyothi Institute of Engineering and Technology (VNR VJIET)",
+    "city": "Hyderabad",
+    "type": "Private (Autonomous)",
+    "established": 1995,
+    "description": "VNR VJIET is known for technology programs and active student clubs.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "5.5 LPA",
+      "topRecruiters": [
+        "Amazon",
+        "Capgemini",
+        "TCS"
+      ]
+    },
+    "facilities": [
+      "Clubs",
+      "Hostels"
+    ],
+    "accreditation": "Autonomous",
+    "nba": null,
+    "naac": null,
+    "intake": 800,
+    "annualFees": "~₹70,000",
+    "hostel": "Yes",
+    "website": "https://www.vnr.edu.in",
+    "image": "/images/vnr.svg",
+    "phone": "+91-40-2340-3030",
+    "email": "info@vnr.edu.in",
+    "address": "Bachupally, Hyderabad, Telangana"
+  },
+  {
+    "rank": 12,
+    "name": "Vasavi College of Engineering",
+    "city": "Hyderabad",
+    "type": "Private (Autonomous)",
+    "established": 1981,
+    "description": "Vasavi College is a respected private engineering college with notable alumni.",
+    "courses": [
+      "B.E.",
+      "M.E.",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "5.8 LPA",
+      "topRecruiters": [
+        "Infosys",
+        "Accenture",
+        "TCS"
+      ]
+    },
+    "facilities": [
+      "Labs",
+      "Hostel"
+    ],
+    "accreditation": "Autonomous",
+    "nba": "NBA (per institute site)",
+    "naac": "NAAC A++",
+    "intake": 700,
+    "annualFees": "~₹60,000",
+    "hostel": "Yes",
+    "website": "https://www.vce.ac.in",
+    "image": "/images/vasavi.jpeg",
+    "phone": "+91-40-2455-1100",
+    "email": "contact@vce.ac.in",
+    "address": "Ibrahimpatnam Road, Hyderabad, Telangana",
+    "gallery": [
+      "/images/vasavi.jpeg"
+    ]
+  },
+  {
+    "rank": 13,
+    "name": "Malla Reddy College of Engineering and Technology (MRCET)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "established": 2002,
+    "description": "MRCET provides a range of undergraduate and postgraduate engineering programs.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "4.8 LPA",
+      "topRecruiters": [
+        "Wipro",
+        "Infosys",
+        "TCS"
+      ]
+    },
+    "facilities": [
+      "Labs",
+      "Sports"
+    ],
+    "accreditation": "Private",
+    "nba": "NBA & NAAC – A",
+    "naac": "NAAC A",
+    "intake": 900,
+    "annualFees": "~₹70,000",
+    "hostel": "Yes",
+    "website": "https://www.mrcet.com",
+    "image": "/images/mrcet.jpeg",
+    "phone": "+91-40-2300-2000",
+    "email": "info@mrcet.com",
+    "address": "Maisammaguda, Hyderabad, Telangana",
+    "gallery": [
+      "/images/mrcet.jpeg"
+    ]
+  },
+  {
+    "rank": 14,
+    "name": "Sreenidhi Institute of Science and Technology (SNIST)",
+    "city": "Ghatkesar, Hyderabad",
+    "type": "Private (Autonomous)",
+    "established": 1997,
+    "description": "SNIST focuses on engineering education with modern facilities.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "4.6 LPA",
+      "topRecruiters": [
+        "Infosys",
+        "Wipro",
+        "Tech Mahindra"
+      ]
+    },
+    "facilities": [
+      "Modern labs",
+      "Hostel"
+    ],
+    "accreditation": "Autonomous",
+    "nba": "nbar",
+    "naac": null,
+    "intake": 800,
+    "annualFees": "~₹60,000",
+    "hostel": "Yes",
+    "website": "https://snist.edu.in",
+    "image": "/images/snist.webp",
+    "phone": "+91-40-2309-4000",
+    "email": "info@snist.edu.in",
+    "address": "Ghatkesar, Hyderabad, Telangana",
+    "gallery": [
+      "/images/snist.webp"
+    ]
+  },
+  {
+    "rank": 15,
+    "name": "Mahatma Gandhi Institute of Technology (MGIT)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "established": 1997,
+    "description": "MGIT offers engineering programs with a focus on practical training.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "4.5 LPA",
+      "topRecruiters": [
+        "Cognizant",
+        "TCS",
+        "Wipro"
+      ]
+    },
+    "facilities": [
+      "Workshops",
+      "Hostel"
+    ],
+    "accreditation": "Private",
+    "nba": "NBA (per institute site)",
+    "naac": "NAAC A",
+    "intake": 700,
+    "annualFees": "~₹55,000",
+    "hostel": "Yes",
+    "website": "https://mgit.ac.in",
+    "image": "/images/college-14.svg",
+    "phone": "+91-40-2712-2133",
+    "email": "contact@mgit.ac.in",
+    "address": "Gandipet, Hyderabad, Telangana"
+  },
+  {
+    "rank": 16,
+    "name": "G. Narayanamma Institute of Technology and Science (GNITS)",
+    "city": "Hyderabad",
+    "type": "Private (Women)",
+    "established": 1997,
+    "description": "GNITS is a premier women's engineering college in Telangana.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "4.2 LPA",
+      "topRecruiters": [
+        "Infosys",
+        "TCS",
+        "Accenture"
+      ]
+    },
+    "facilities": [
+      "Women-only campus",
+      "Hostel"
+    ],
+    "accreditation": "Private",
+    "nba": null,
+    "naac": "NAAC A",
+    "intake": 600,
+    "annualFees": "~₹50,000",
+    "hostel": "Yes",
+    "website": "https://gnits.ac.in",
+    "image": "/images/naranamma.jpg",
+    "phone": "+91-40-2340-3333",
+    "email": "info@gnits.ac.in",
+    "address": "Hyderabad, Telangana",
+    "gallery": [
+      "/images/naranamma.jpg",
+      "/images/gnit.png"
+    ]
+  },
+  {
+    "rank": 17,
+    "name": "Institute of Aeronautical Engineering (IARE)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "established": 2000,
+    "description": "IARE specializes in aeronautical and aerospace related programs.",
+    "courses": [
+      "B.Tech (Aeronautical)",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "4.8 LPA",
+      "topRecruiters": [
+        "HAL",
+        "DRDO",
+        "Tata Advanced Systems"
+      ]
+    },
+    "facilities": [
+      "Aero labs",
+      "Hostel"
+    ],
+    "accreditation": "Private",
+    "nba": "NBA accredited (per institute site)",
+    "naac": "NAAC A++",
+    "intake": 500,
+    "annualFees": "~₹60,000",
+    "hostel": "Yes",
+    "website": "https://www.iare.ac.in",
+    "image": "/images/iare.jpg",
+    "phone": "+91-40-2301-3333",
+    "email": "info@iare.ac.in",
+    "address": "Hyderabad, Telangana",
+    "gallery": [
+      "/images/iare.jpg"
+    ]
+  },
+  {
+    "rank": 18,
+    "name": "Muffakham Jah College of Engineering and Technology (MJCET)",
+    "city": "Hyderabad",
+    "type": "Private (Autonomous)",
+    "established": 1980,
+    "description": "MJCET is a well-established engineering college with good industry ties.",
+    "courses": [
+      "B.E.",
+      "M.E."
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "4.4 LPA",
+      "topRecruiters": [
+        "Cognizant",
+        "TCS",
+        "Amazon"
+      ]
+    },
+    "facilities": [
+      "Labs",
+      "Hostel"
+    ],
+    "accreditation": "Autonomous",
+    "nba": null,
+    "naac": null,
+    "intake": 600,
+    "annualFees": "~₹55,000",
+    "hostel": "Yes",
+    "website": "https://mjcet.ac.in",
+    "image": "/images/mufa.jpeg",
+    "phone": "+91-40-2700-4100",
+    "email": "info@mjcet.ac.in",
+    "address": "Hyderabad, Telangana",
+    "gallery": [
+      "/images/mufa.jpeg"
+    ]
+  },
+  {
+    "rank": 19,
+    "name": "Anurag University - College of Engineering",
+    "city": "Ghatkesar (near Hyderabad)",
+    "type": "Private",
+    "established": 2009,
+    "description": "Anurag University offers modern engineering courses and campus facilities.",
+    "courses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "3.8 LPA",
+      "topRecruiters": [
+        "Wipro",
+        "Infosys",
+        "TCS"
+      ]
+    },
+    "facilities": [
+      "Modern campus",
+      "Hostel"
+    ],
+    "accreditation": "Private",
+    "nba": "NBA accredited (per institute site)",
+    "naac": "NAAC A",
+    "intake": 700,
+    "annualFees": "~₹50,000",
+    "hostel": "Yes",
+    "website": "https://www.anurag.edu.in",
+    "image": "/images/anurag.jpg",
+    "phone": "+91-40-2340-2000",
+    "email": "info@anurag.edu.in",
+    "address": "Ghatkesar, Hyderabad, Telangana",
+    "gallery": [
+      "/images/anurag.jpg"
+    ]
+  },
+  {
+    "rank": 20,
+    "name": "Keshav Memorial Institute of Technology (KMIT)",
+    "city": "Hyderabad",
+    "type": "Private",
+    "established": 2007,
+    "description": "KMIT focuses on engineering and management programs with active placement support.",
+    "courses": [
+      "B.Tech",
+      "MBA"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "placements": {
+      "avgPackage": "3.9 LPA",
+      "topRecruiters": [
+        "Wipro",
+        "TCS",
+        "Infosys"
+      ]
+    },
+    "facilities": [
+      "Industry training",
+      "Hostel"
+    ],
+    "accreditation": "Private",
+    "nba": "NBA accredited (program-level accreditations indicated on site)",
+    "naac": "NAAC A",
+    "intake": 600,
+    "annualFees": "~₹45,000",
+    "hostel": "Yes",
+    "website": "https://kmit.in",
+    "image": "/images/kmit.webp",
+    "phone": "+91-40-2344-4000",
+    "email": "info@kmit.in",
+    "address": "Hyderabad, Telangana",
+    "gallery": [
+      "/images/kmit.webp"
+    ]
+  },
+  {
+    "rank": 20,
+    "name": "Jawaharlal Nehru Technological University, Hyderabad - University College of Engineering (UCE)",
+    "city": "Hyderabad",
+    "type": "State University",
+    "established": 1972,
+    "description": "UCE (JNTUH) is part of JNTU Hyderabad offering multiple engineering disciplines.",
+    "courses": [
+      "B.Tech",
+      "M.Tech",
+      "PhD"
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "placements": {
+      "avgPackage": "5.0 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Infosys",
+        "Wipro"
+      ]
+    },
+    "facilities": [
+      "Large campus",
+      "Research centres"
+    ],
+    "accreditation": "State University",
+    "nba": null,
+    "naac": "NAAC A",
+    "intake": 1000,
+    "annualFees": "~₹35,000",
+    "hostel": "Varies",
+    "website": "https://jntuh.ac.in",
+    "image": "/images/college-20.svg",
+    "phone": "+91-40-2315-2400",
+    "email": "info@jntuh.ac.in",
+    "address": "Hyderabad, Telangana"
+  },
+  {
+    "rank": 10,
+    "name": "Maturi Venkata Subba Rao (MVSR) Engineering College",
+    "city": "Nadergul (near Hyderabad)",
+    "type": "Private",
+    "established": 1981,
+    "description": "Maturi Venkata Subba Rao (MVSR) Engineering College — established in 1981 and affiliated to Osmania University. Offers BE programs in Civil, CSE, ECE, EEE, IT, Mechanical and Automobile; postgraduate and research programs are also available.",
+    "courses": [
+      "B.E.",
+      "M.Tech",
+      "MBA",
+      "Ph.D."
+    ],
+    "courseTypes": [
+      "Undergraduate",
+      "Postgraduate",
+      "Research"
+    ],
+    "subCourses": {
+      "B.E.": [
+        "Civil Engineering",
+        "Computer Science & Engineering",
+        "Electronics & Communication Engineering",
+        "Electrical & Electronics Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Automobile Engineering"
+      ],
+      "M.Tech": [
+        "Computer Science & Engineering",
+        "Structural Engineering",
+        "Power Systems Engineering",
+        "VLSI Design",
+        "Thermal Engineering"
+      ],
+      "MBA": [
+        "General MBA",
+        "MBA Finance",
+        "MBA Marketing",
+        "MBA Operations",
+        "MBA Human Resources"
+      ],
+      "Ph.D.": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Electrical Engineering"
+      ]
+    },
+    "placements": {
+      "avgPackage": "4.2 LPA",
+      "topRecruiters": [
+        "TCS",
+        "Wipro",
+        "Infosys"
+      ]
+    },
+    "facilities": [
+      "Hostel",
+      "Labs",
+      "Sports complex"
+    ],
+    "accreditation": "Affiliated to Osmania University",
+    "nba": "NBA Accredited for Civil",
+    "naac": null,
+    "intake": 1000,
+    "annualFees": "₹1,30,000",
+    "fees": {
+      "tuition_per_year": "₹1,30,000"
+    },
+    "hostel": "Yes",
+    "website": "https://mvsrec.edu.in",
+    "image": "/images/mvsr.jpeg",
+    "phone": "+91-9573373930",
+    "email": "principal@mvsrec.edu.in",
+    "address": "Nadergul Village, Balapur Mandal, Hyderabad - 501510, Telangana",
+    "gallery": [
+      "/images/mvsr.jpeg"
+    ]
+  }
+]

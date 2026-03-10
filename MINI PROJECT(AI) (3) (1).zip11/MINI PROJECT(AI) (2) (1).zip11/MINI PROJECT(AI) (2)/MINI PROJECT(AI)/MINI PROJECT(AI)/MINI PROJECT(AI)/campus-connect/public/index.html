@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Campus Connect - Explore top engineering colleges in Telangana with verified information and authentic student reviews">
+  <meta name="keywords" content="engineering colleges, Telangana, admission, college search, university guide">
+  <title>Campus Connect — Discover Top Engineering Colleges in Telangana</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  
+  <header>
+    <div class="header-inner">
+      <h1>🎓 Campus Connect</h1>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION WITH PARALLAX -->
+  <section class="hero-section">
+    <div class="hero-bg-blur"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2 class="hero-title">Discover Your Perfect Engineering College</h2>
+        <p class="hero-subtitle">Explore Telangana's finest engineering institutions with comprehensive data, placements, and real student reviews</p>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card stat-1">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Colleges</span>
+        </div>
+        <div class="stat-card stat-2">
+          <span class="stat-number">1k+</span>
+          <span class="stat-label">Reviews</span>
+        </div>
+        <div class="stat-card stat-3">
+          <span class="stat-number">95%</span>
+          <span class="stat-label">Verified</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- SEARCH & DISCOVERY SECTION -->
+    <section class="search-section">
+      <div class="search-container">
+        <h3 class="search-title">Find Your College Match</h3>
+        <div class="controls premium">
+          <input id="search" type="text" placeholder="Search by name, city, NIRF rank, placements..." autocomplete="off" />
+          <select id="search-filter" aria-label="Filter by program" style="margin-left:8px;padding:10px 12px;border-radius:10px;border:1px solid var(--border);background:var(--card)">
+            <option value="all">All programs</option>
+            <option value="be">B.E / B.Tech</option>
+            <option value="mtech">M.Tech / M.E</option>
+            <option value="mba">MBA</option>
+          </select>
+          <button id="refresh" class="btn-refresh">↻ Clear</button>
+        </div>
+        <div id="search-dropdown" class="search-dropdown placeholder" role="listbox" aria-hidden="true">
+          <div class="placeholder-content">
+            <span>🔍 Start typing to explore colleges...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="prompt" class="prompt premium">
+      <div class="prompt-icon">📚</div>
+      <h2>Begin Your College Discovery Journey</h2>
+      <p>Enter college name, city, or key details to find institutions matching your aspirations</p>
+      <div class="prompt-features">
+        <div class="feature-chip">⭐ Top Rankings</div>
+        <div class="feature-chip">💼 Placements</div>
+        <div class="feature-chip">👥 Reviews</div>
+        <div class="feature-chip">🏆 Achievements</div>
+      </div>
+    </div>
+
+    <!-- TOP 20 SECTION -->
+    <section id="top20" class="top20-section">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">🏆 Top 20 Engineering Colleges</h2>
+          <p class="section-subtitle">Ranked by NIRF, placements, and student satisfaction</p>
+        </div>
+        <div class="controls-compact">
+          <div class="view-toggle" aria-label="Toggle view">
+            <button id="btn-badges" class="active" aria-pressed="true" title="List view">List</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="top-list" class="top-list" aria-label="Top 20 colleges" style="display:flex;flex-wrap:wrap;gap:10px;">
+        <!-- Filled dynamically by app.js -->
+      </div>
+      <div id="top-grid" class="top-grid" style="display:none;margin-top:12px;">
+        <!-- Grid view injected dynamically -->
+      </div>
+      <div id="top-ranked" class="top-ranked" style="display:none;margin-top:12px;">
+        <!-- Ranked one-by-one list injected dynamically -->
+      </div>
+    </section>
+
+    <!-- BROWSE SECTION -->
+    <section class="browse-section">
+      <h2 class="section-title">Explore All Colleges</h2>
+      <p class="section-subtitle">Browse complete database of engineering institutions</p>
+      <div id="list" class="list premium-grid" aria-live="polite" aria-label="Colleges list"></div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section">
+      <h2 class="section-title">Why Choose Campus Connect?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Advanced Search</h3>
+          <p>Find colleges by NIRF ranking, placements, fees, location, and specializations</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <h3>Real Reviews</h3>
+          <p>Authentic student testimonials verified and filtered for genuine feedback</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Complete Data</h3>
+          <p>Comprehensive statistics on placements, fees, courses, and facilities</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💡</div>
+          <h3>Smart Matching</h3>
+          <p>AI-powered recommendations based on your preferences and scores</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h3>Rankings</h3>
+          <p>NIRF and international rankings compared in one place</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials-section">
+      <div class="testimonials-header">
+        <h2 class="section-title">💬 Student Voices & Experiences</h2>
+        <p class="section-subtitle">Real stories from students across India's top engineering colleges</p>
+      </div>
+      <div id="testimonials-carousel" class="testimonials-carousel premium" aria-label="Student testimonials carousel">
+        <!-- Testimonials will be injected here -->
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Find Your Dream College?</h2>
+        <p>Join thousands of students making informed decisions with Campus Connect</p>
+        <a href="/signup" class="btn-cta-large">Get Started Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="premium-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Campus Connect</h4>
+        <p>Your comprehensive guide to engineering education in India</p>
+      </div>
+      <div class="footer-section">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/all">All Colleges</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/signup">Sign Up</a></li>
+          <li><a href="/login">Login</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Campus Connect — Your guide to engineering education in India</p>
+    </div>
+  </footer>
+
+  <script src="/back.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

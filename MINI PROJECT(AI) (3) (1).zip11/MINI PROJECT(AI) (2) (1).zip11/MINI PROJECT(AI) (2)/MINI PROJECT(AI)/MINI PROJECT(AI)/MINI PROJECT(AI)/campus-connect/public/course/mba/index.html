@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MBA — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="container" style="padding: 24px; max-width: 900px; margin: 0 auto;">
+    <a href="/" class="btn-link">← Home</a>
+    <h1>MBA Programs</h1>
+    <p>Overview of MBA specializations, entrance tests (CAT, MAT, XAT), and typical fees and placements.</p>
+
+    <section>
+      <h2>Popular Streams</h2>
+      <p>Marketing · Finance · HR · Operations · Business Analytics</p>
+    </section>
+  </main>
+  <script src="/back.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MBA — Campus Connect</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .container { max-width: 900px; margin: 28px auto; padding: 18px; background: #fff; border-radius: 8px; }
+    h1 { margin-top: 0; }
+    .section { margin: 18px 0; }
+    .btn-primary { background:#0078d4;color:#fff;padding:10px 16px;border-radius:6px;border:none;cursor:pointer }
+    .btn-secondary { background:#f3f4f6;color:#111;padding:8px 12px;border-radius:6px;border:1px solid #ddd;cursor:pointer }
+    .spec-list { columns:2; -webkit-columns:2; -moz-columns:2; }
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center}
+    .modal{background:#fff;padding:20px;border-radius:8px;max-width:520px;width:94%;box-shadow:0 6px 30px rgba(0,0,0,0.15)}
+    .form-row{display:flex;gap:8px;margin-bottom:8px}
+    .form-row input,.form-row select,textarea{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+    .muted{color:#666;font-size:0.95rem}
+  </style>
+</head>
+<body style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f4f6f8;">
+  <div class="container">
+    <a href="/" class="muted">← Back to Home</a>
+    <h1>MBA (Master of Business Administration)</h1>
+    <p class="muted">A professional postgraduate degree focused on management, leadership and business skills across industries.</p>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>MBA equips students with managerial knowledge, case studies, internships and practical projects to prepare for leadership roles in business, consulting, finance, marketing and operations.</p>
+    </div>
+
+    <div class="section">
+      <h2>Duration</h2>
+      <p>Usually 2 years (4 semesters) for full-time programs. One-year executive MBA options are available for experienced professionals.</p>
+    </div>
+
+    <div class="section">
+      <h2>Eligibility</h2>
+      <ul>
+        <li>Bachelor’s degree in any discipline with minimum aggregate (usually 50% or as specified).</li>
+        <li>Entrance tests: CAT / MAT / XAT / CMAT / state-level management tests.</li>
+        <li>Group discussion, personal interview and work-experience may be part of selection.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Specializations</h2>
+      <div class="spec-list">
+        <ul>
+          <li>Finance</li>
+          <li>Marketing</li>
+          <li>Human Resources (HR)</li>
+          <li>Operations & Supply Chain</li>
+          <li>Business Analytics</li>
+          <li>Information Technology Management</li>
+          <li>International Business</li>
+          <li>Entrepreneurship</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Fees</h2>
+      <ul>
+        <li>Government institutes: ₹50,000 — ₹3,00,000 per year</li>
+        <li>Private B-schools: ₹1,00,000 — ₹8,00,000 per year</li>
+        <li>Executive MBA fees are usually higher; scholarships available at select institutes.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Admission Process</h2>
+      <ol>
+        <li>Appear for management entrance tests and apply to colleges.</li>
+        <li>Shortlisting for GD/PI based on scores and profile.</li>
+        <li>Final selection by merit, interview and work-experience criteria.</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Career Scope</h2>
+      <p>MBA graduates enter roles such as Business Analyst, Marketing Manager, Financial Analyst, HR Manager, Operations Manager, Product Manager and Consultants.</p>
+    </div>
+
+    <div class="section">
+      <h2>Placement Details</h2>
+      <p id="mba-placement">Loading placement data for this college...</p>
+      <p class="muted" id="mba-recruiters">Loading recruiters...</p>
+    </div>
+
+    <div class="section">
+      <h2>Apply Now</h2>
+      <p class="muted">Express interest and our admissions team will contact you.</p>
+      <button class="btn-primary" id="open-apply">Apply for MBA — Admissions Open</button>
+      <button class="btn-secondary" onclick="location.href='/signup.html'">Go to Admission Portal</button>
+      <div style="margin-top:12px;font-size:0.95rem;" class="muted">Contact: <strong>admissions@campusconnect.example</strong></div>
+    </div>
+  </div>
+
+  <div id="apply-modal" class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal" role="document">
+      <h3>Express Interest — MBA</h3>
+      <p class="muted">Fill a quick form and we will reach out with admission details.</p>
+      <div style="margin-top:8px">
+        <div class="form-row">
+          <input id="app-name" placeholder="Full name" />
+        </div>
+        <div class="form-row">
+          <input id="app-email" type="email" placeholder="Email address" />
+          <input id="app-phone" placeholder="Phone (optional)" />
+        </div>
+        <div class="form-row">
+          <select id="app-spec">
+            <option>Finance</option>
+            <option>Marketing</option>
+            <option>HR</option>
+            <option>Operations</option>
+            <option>Analytics</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div style="margin-bottom:10px">
+          <textarea id="app-msg" placeholder="Tell us about your background or questions" rows="3" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px"></textarea>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <button class="btn-secondary" id="apply-cancel">Cancel</button>
+          <button class="btn-primary" id="apply-send">Send Interest</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/back.js"></script>
+  <script>
+    const openBtn = document.getElementById('open-apply');
+    const modal = document.getElementById('apply-modal');
+    const cancel = document.getElementById('apply-cancel');
+    const send = document.getElementById('apply-send');
+    openBtn.addEventListener('click', ()=>{ modal.style.display='flex'; modal.setAttribute('aria-hidden','false'); });
+    cancel.addEventListener('click', ()=>{ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); });
+    send.addEventListener('click', ()=>{
+      const name = document.getElementById('app-name').value.trim();
+      const email = document.getElementById('app-email').value.trim();
+      if(!name || !email){ alert('Please provide at least your name and email.'); return; }
+      const subject = encodeURIComponent('MBA Application Interest — ' + name);
+      const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\nReferer: '+location.href);
+      window.location.href = 'mailto:admissions@campusconnect.example?subject='+subject+'&body='+body;
+      modal.style.display='none';
+    });
+    modal.addEventListener('click', (e)=>{ if(e.target === modal){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); } });
+
+    (async function(){
+      const parts = location.pathname.split('/').filter(Boolean);
+      let collegeId = null;
+      if (parts[0] === 'college' && parts.length >= 2) collegeId = parts[1];
+      if (!collegeId) {
+        const qp = new URLSearchParams(location.search).get('college');
+        if (qp) collegeId = qp;
+      }
+      const pEl = document.getElementById('mba-placement');
+      const rEl = document.getElementById('mba-recruiters');
+      try{
+        if (!collegeId) { pEl.textContent = 'College not selected'; rEl.textContent = ''; return; }
+        const resp = await fetch('/api/colleges/' + encodeURIComponent(collegeId));
+        if (!resp.ok) throw new Error('College not found');
+        const c = await resp.json();
+        const p = (c.placements && c.placements.mba) || c.placements || {};
+        pEl.innerHTML = `Average package: ${p.avgPackage || (c.placements && c.placements.avgPackage) || 'N/A'}<br>Highest: ${p.highestPackage || (c.placements && c.placements.highestPackage) || 'N/A'}`;
+        rEl.textContent = (p.topRecruiters || (c.placements && c.placements.topRecruiters) || []).slice(0,8).join(', ') || 'N/A';
+      }catch(e){ pEl.textContent = 'Placement data unavailable'; rEl.textContent = ''; }
+    })();
+  </script>
+</body>
+</html>

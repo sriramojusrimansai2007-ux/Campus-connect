@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ph.D — Campus Connect</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    .container { max-width: 900px; margin: 28px auto; padding: 18px; background: #fff; border-radius: 8px; }
+    h1 { margin-top: 0; }
+    .section { margin: 18px 0; }
+    .btn-primary { background:#0078d4;color:#fff;padding:10px 16px;border-radius:6px;border:none;cursor:pointer }
+    .btn-secondary { background:#f3f4f6;color:#111;padding:8px 12px;border-radius:6px;border:1px solid #ddd;cursor:pointer }
+    .spec-list { columns:2; -webkit-columns:2; -moz-columns:2; }
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center}
+    .modal{background:#fff;padding:20px;border-radius:8px;max-width:520px;width:94%;box-shadow:0 6px 30px rgba(0,0,0,0.15)}
+    .form-row{display:flex;gap:8px;margin-bottom:8px}
+    .form-row input,.form-row select,textarea{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+    .muted{color:#666;font-size:0.95rem}
+  </style>
+</head>
+<body style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f4f6f8;">
+  <div class="container">
+    <a href="/" class="muted">← Back to Home</a>
+    <h1>Ph.D (Doctor of Philosophy)</h1>
+    <p class="muted">The highest academic research degree, focused on original research and producing publishable contributions to knowledge.</p>
+
+    <div class="section">
+      <h2>Overview</h2>
+      <p>Ph.D programs train students to conduct independent research in specialised fields. Work includes coursework (where required), research, publications and a thesis defended before a committee.</p>
+    </div>
+
+    <div class="section">
+      <h2>Duration</h2>
+      <p>Generally 3–6 years, depending on research progress, supervisor guidance and institute norms.</p>
+    </div>
+
+    <div class="section">
+      <h2>Eligibility</h2>
+      <ul>
+        <li>Master’s degree (M.Tech / M.E / M.Sc / MCA or equivalent) in a relevant field with a good academic record.</li>
+        <li>Many institutes require qualifying exams (e.g., NET, GATE, university entrance) and/or interviews.</li>
+        <li>Research proposal and identified supervisor increase chances of selection.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Specializations</h2>
+      <div class="spec-list">
+        <ul>
+          <li>Computer Science & Engineering</li>
+          <li>Electrical & Electronics</li>
+          <li>Mechanical / Thermofluids</li>
+          <li>Civil / Structural</li>
+          <li>Chemical / Materials Science</li>
+          <li>AI, ML & Data Science</li>
+          <li>Robotics & Control</li>
+          <li>Interdisciplinary research topics</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Fees & Funding</h2>
+      <ul>
+        <li>Many Ph.D candidates receive stipends/scholarships (CSIR/UGC/JRF, institute fellowships).</li>
+        <li>Self-funded candidates pay tuition and research fees (varies by university).</li>
+        <li>Funding availability depends on department grants and advisor projects.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Admission Process</h2>
+      <ol>
+        <li>Submit application with CV, statement of purpose and research interests.</li>
+        <li>Qualify entrance test (if required) and attend interview with faculty panel.</li>
+        <li>Secure a supervisor and register with the university; begin research after formal enrollment.</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h2>Career Scope</h2>
+      <p>Ph.D graduates pursue academia as faculty, research scientist roles in industry, R&D labs, policy research, and leadership roles in tech and innovation-driven organizations.</p>
+    </div>
+
+    <div class="section">
+      <h2>Placement Details</h2>
+      <p>Placements are research-focused: universities, government & private research labs (DRDO, ISRO, CSIR labs), corporate R&D (IBM Research, Microsoft Research), and senior roles in product companies.</p>
+    </div>
+
+    <div class="section">
+      <h2>Apply Now</h2>
+      <p class="muted">Share a short research summary and our admissions team will guide you.</p>
+      <button class="btn-primary" id="open-apply">Apply for Ph.D — Admissions Open</button>
+      <button class="btn-secondary" onclick="location.href='/signup.html'">Go to Admission Portal</button>
+      <div style="margin-top:12px;font-size:0.95rem;" class="muted">Contact: <strong>research@campusconnect.example</strong></div>
+    </div>
+  </div>
+
+  <div id="apply-modal" class="modal-backdrop" role="dialog" aria-hidden="true">
+    <div class="modal" role="document">
+      <h3>Express Interest — Ph.D</h3>
+      <p class="muted">Provide your name, email and brief research idea; we will connect you with potential supervisors.</p>
+      <div style="margin-top:8px">
+        <div class="form-row">
+          <input id="app-name" placeholder="Full name" />
+        </div>
+        <div class="form-row">
+          <input id="app-email" type="email" placeholder="Email address" />
+          <input id="app-phone" placeholder="Phone (optional)" />
+        </div>
+        <div class="form-row">
+          <select id="app-spec">
+            <option>Computer Science</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div style="margin-bottom:10px">
+          <textarea id="app-msg" placeholder="Brief research idea or background" rows="3" style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px"></textarea>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <button class="btn-secondary" id="apply-cancel">Cancel</button>
+          <button class="btn-primary" id="apply-send">Send Interest</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/back.js"></script>
+  <script>
+    const openBtn = document.getElementById('open-apply');
+    const modal = document.getElementById('apply-modal');
+    const cancel = document.getElementById('apply-cancel');
+    const send = document.getElementById('apply-send');
+    openBtn.addEventListener('click', ()=>{ modal.style.display='flex'; modal.setAttribute('aria-hidden','false'); });
+    cancel.addEventListener('click', ()=>{ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); });
+    send.addEventListener('click', ()=>{
+      const name = document.getElementById('app-name').value.trim();
+      const email = document.getElementById('app-email').value.trim();
+      if(!name || !email){ alert('Please provide at least your name and email.'); return; }
+      const subject = encodeURIComponent('Ph.D Application Interest — ' + name);
+      const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\nResearch idea:\n'+document.getElementById('app-msg').value+'\nReferer: '+location.href);
+      window.location.href = 'mailto:research@campusconnect.example?subject='+subject+'&body='+body;
+      modal.style.display='none';
+    });
+    modal.addEventListener('click', (e)=>{ if(e.target === modal){ modal.style.display='none'; modal.setAttribute('aria-hidden','true'); } });
+  </script>
+</body>
+</html>
